@@ -17,6 +17,7 @@ def process_file(event, context):
         print(f"File content: {content}")
     
     return f"Processed {file_name} successfully!"
+
 from flask import Request
 
 def http_hello_world(request: Request):
